@@ -1,0 +1,46 @@
+.slide-item {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.slide-item__desc {
+  width: 500px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slide-item__heading {
+  color: #3e3434;
+  font-family: 'Playfair Display', serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 64px;
+}
+.slide-item__heading span {
+  display: block;
+  color: rgba(0, 123, 255, 0.9);
+  font-family: 'League-Spartan', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 5.4px;
+}
+.slide-item__text {
+  width: 389px;
+  color: #6d839a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+.slide-item__img {
+  width: 1016px;
+  height: 572px;
+  background-image: url(../img/img/img-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
